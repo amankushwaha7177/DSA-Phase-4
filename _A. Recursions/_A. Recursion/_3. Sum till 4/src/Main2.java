@@ -1,15 +1,17 @@
 public class Main2 {
     public static void main(String[] args) {
-        int n = 4;
+        int cnt = 4;
         int sum = 0;
-        System.out.println(findSum(n));
+        System.out.println(findSum(cnt, sum));
     }
 
-    public static int findSum(int n){
-        if(n == 0){
-            return 0;
+    public static int findSum(int cnt, int sum){
+        if(cnt == 0){
+            return sum;
         }
 
-        return n + findSum(n - 1);
+        sum += cnt;
+
+        return findSum(cnt-1, sum);
     }
 }
