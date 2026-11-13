@@ -10,6 +10,6 @@ public class Main2 {
             return 0;
         }
 
-        return n + findSum(n + 1);
+        return n + findSum(n - 1);
     }
 }
