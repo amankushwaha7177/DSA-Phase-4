@@ -1,7 +1,7 @@
 public class Main3 {
     public static void main(String[] args) {
         int n = 4;
-        int sum = 0;
+        // int sum = 0;
         System.out.println(findSum(n));
     }
 
