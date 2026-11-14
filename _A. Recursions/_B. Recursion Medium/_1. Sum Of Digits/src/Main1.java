@@ -21,3 +21,5 @@
         return sumFun(n, sum);
     }
 }
+
+// Given a positive number n. Find the sum of all the digits of n.
