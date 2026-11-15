@@ -26,3 +26,5 @@ public class Main {
         clean(s, c, i);
     }
 }
+
+// Given a string s and a character c. The task is to remove all the occurrences of the character in the string.
