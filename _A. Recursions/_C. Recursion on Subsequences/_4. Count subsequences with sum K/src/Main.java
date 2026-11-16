@@ -5,7 +5,7 @@ public class Main {
         // List<List<Integer>> result = new ArrayList<>();
         int result = 0;
 
-        int[] arr = {1, 2, 1};
+        int[] arr = {1, 2, 1, 1};
         int k = 2;    // 2
         // int k = 5; // 0
 
