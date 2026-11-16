@@ -18,14 +18,18 @@ public class Main {
         if(check(i+1, arr, s, k) == true){
             return true;
         }
+        // if left gave true  return true cause 1 true is enough. no need to check further
+        // for right
 
+
+        // if left is giving false check right
         s = s - arr[i];
         if(check(i+1, arr,  s, k) == true){
             return true;
         }
-        else{
-            return false;
-        }
+
+        // if both gave false. now main call will return false
+        return false;
 
     }
 }
