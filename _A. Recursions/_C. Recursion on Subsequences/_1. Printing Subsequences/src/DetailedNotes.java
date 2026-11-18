@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Temp {
+public class DetailedNotes {
 
     public static void main(String[] args) {
 
@@ -14,12 +14,7 @@ public class Temp {
         System.out.println(result);
     }
 
-    public static void generate(
-            int index,
-            int[] arr,
-            List<Integer> current,
-            List<List<Integer>> result) {
-
+    public static void generate( int index, int[] arr, List<Integer> current,  List<List<Integer>> result) {
         /*
 
         PROBLEM: PRINT ALL SUBSEQUENCES
