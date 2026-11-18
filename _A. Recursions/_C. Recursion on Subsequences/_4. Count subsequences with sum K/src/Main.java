@@ -1,33 +1,34 @@
 public class Main {
     public static void main(String[] args) {
 
-        // List<Integer> current = new ArrayList<>();
-        // List<List<Integer>> result = new ArrayList<>();
-        int result = 0;
-
         int[] arr = {1, 2, 1, 1};
         int k = 2;    // 2
         // int k = 5; // 0
 
-        System.out.println(check(0, arr, result, 0, k));
+        System.out.println(check(0, arr,  k, 0));
     }
 
-    public static int check(int i, int[] arr, int result, int s, int k){
+    public static int check(int i, int[] arr, int k, int sum){
         if(i == arr.length){
-            if(s == k){
-                return 1;
+            // all slots complted +
+            if(sum == k){
+                return 1; // 1 subsequence is formed.
             }
-            return 0;
+            else{
+                return 0; // No Subsequence is formed.
+            }
         }
 
-        // current.add(arr[i]);
-        s = s + arr[i];
-        int l = check(i+1, arr, result, s, k);
+        sum += arr[i];
+        int left = check(i+1, arr, k, sum);                    // result of left hand
 
-        // current.remove(current.size()-1);
-        s = s - arr[i];
-        int r = check(i+1, arr, result, s, k);
 
-        return l + r;
+        sum-= arr[i];
+        int right = check(i+1, arr, k, sum);                  // result of right hand
+
+
+        // Count both left and right subsequence.
+        return left + right;
+
     }
 }
