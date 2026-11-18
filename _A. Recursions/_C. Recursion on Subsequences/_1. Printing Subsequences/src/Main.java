@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -9,6 +10,7 @@ public class Main {
         List<Integer> current = new ArrayList<>();
         List<List<Integer>> result = new ArrayList<>();
 
+        System.out.println(Arrays.toString((arr)));
         check(0, arr, current, result);
         System.out.println(result);
 
