@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Temp {
+public class DetailedNotes {
 
     public static void main(String[] args) {
 
