@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA-Phase-4.iml" filepath="$PROJECT_DIR$/.idea/DSA-Phase-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_D. Sorting Algorithm By Rec/_1. Merge Sort/_1. Merge Sort.iml" filepath="$PROJECT_DIR$/_A. Recursions/_D. Sorting Algorithm By Rec/_1. Merge Sort/_1. Merge Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_A. Recursion Easy/_1. Print name 4 times/_1. Print name 4 times.iml" filepath="$PROJECT_DIR$/_A. Recursions/_A. Recursion Easy/_1. Print name 4 times/_1. Print name 4 times.iml" />
       <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_C. Recursion on Subsequences/_1. Printing Subsequences/_1. Printing Subsequences.iml" filepath="$PROJECT_DIR$/_A. Recursions/_C. Recursion on Subsequences/_1. Printing Subsequences/_1. Printing Subsequences.iml" />
       <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_B. Recursion Medium/_1. Sum Of Digits/_1. Sum Of Digits.iml" filepath="$PROJECT_DIR$/_A. Recursions/_B. Recursion Medium/_1. Sum Of Digits/_1. Sum Of Digits.iml" />
@@ -21,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_A. Recursions.iml" filepath="$PROJECT_DIR$/_A. Recursions/_A. Recursions.iml" />
       <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_B. Recursion Medium/_B. Recursion Medium.iml" filepath="$PROJECT_DIR$/_A. Recursions/_B. Recursion Medium/_B. Recursion Medium.iml" />
       <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_C. Recursion on Subsequences/_C. Recursion on Subsequences.iml" filepath="$PROJECT_DIR$/_A. Recursions/_C. Recursion on Subsequences/_C. Recursion on Subsequences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_A. Recursions/_D. Sorting Algorithm By Rec/_D. Sorting Algorithm By Rec.iml" filepath="$PROJECT_DIR$/_A. Recursions/_D. Sorting Algorithm By Rec/_D. Sorting Algorithm By Rec.iml" />
     </modules>
   </component>
 </project>
