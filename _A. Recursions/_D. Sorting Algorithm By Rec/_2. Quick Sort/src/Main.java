@@ -10,6 +10,8 @@ public class Main {
 
     public static void quickSort(int[] arr, int low, int high){
         if(low >= high){
+            // 1 elm array can not be partitioned + invalid arr can't be partitioned
+            // both are sorted so pause now.
             return;
         }
 
@@ -20,7 +22,7 @@ public class Main {
 
     public static int partition(int[] arr, int low, int high){
         int pivot = arr[low];
-        int i = low + 1;
+        int i = low + 1; // start from next to pivot.
         int j = high;
 
         while(i < j){
