@@ -4,14 +4,15 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 2};
+        int[] nums = new int[]{1, 1, 1, 2};
         Arrays.sort(nums);
 
         List<Integer> curr = new ArrayList<>();
         List<List<Integer>> result  =  new ArrayList<>();
 
         fun(0, nums, curr, result);
-        System.out.println(result); // Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
+        System.out.println(result);
+        // Output: [[1, 1, 1, 2], [1, 1, 1], [1, 1, 2], [1, 1], [1, 2], [1], [2], []]
     }
 
     public static void fun(int i, int[] arr, List<Integer> curr, List<List<Integer>> result){
