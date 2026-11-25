@@ -9,7 +9,7 @@ public class Main {
         List<List<Integer>> result  =  new ArrayList<>();
 
         fun(0, nums, curr, result);
-        System.out.println(result);
+        System.out.println(result); // 8-  [[1, 2, 3], [1, 2], [1, 3], [1], [2, 3], [2], [3], []]
     }
 
     public static void fun(int i, int[] arr, List<Integer> curr, List<List<Integer>> result){
